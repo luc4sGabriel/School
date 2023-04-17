@@ -1,4 +1,4 @@
-School Project - 
+School Project - API REST 
 
 Utilizo o dotenv para configuracoes de senhas e de ip na base de dados e no codigo em si:
 
