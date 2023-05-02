@@ -69,7 +69,7 @@ class UserController {
       }
 
       await user.destroy();
-      return res.json({ null: true });
+      return res.json(null);
     } catch (e) {
       return res.status(400).json({
         errors: e.errors.map((err) => err.message),
